@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+}
+p {
+    font-family: monospace;
+    font-size: 12px;
+} 
+.apresentation {
+    padding: 30px 70px;
+    background-color:darkgray;
+}
+.apresentation-right {
+    float: right;
+    margin-right: 30px;
+}
+.apresentation-left {
+    float: left;
+    margin-left: 60px;
+}
+.footer {
+    padding-top: 40px;
+    clear: both;
+    text-align: center;
+    margin-top: 60px;
+}
+.hero-title {
+    margin-bottom: 15px;
+}
+
+.picture {
+    border-radius: 5px;
+    width: 200px;
+    float: left;
+}
+
+.button {
+    text-decoration: none;
+    line-height: 15px;
+    background-color: darkgray;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    display: block;
+    width: 90px;
+    text-align: left;
+    color: black;
+    font-weight: 700;
+    transition: 1s;               
+}
+.button:hover {
+    background-color: gray;
+} 
