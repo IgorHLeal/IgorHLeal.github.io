@@ -44,11 +44,11 @@ p {
 
 .button {
     text-decoration: none;
-    line-height: 10px;
+    line-height: 20px;
     background-color: darkgray;
     border-radius: 5px;
     display: block;
-    width: 90px;
+    width: 82px;
     text-align: left;
     color: black;
     font-weight: 700;
