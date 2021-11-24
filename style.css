@@ -11,8 +11,9 @@ p {
     font-size: 12px;
 } 
 .apresentation {
-    padding: 30px 70px;
+    padding: 100px 70px;
     background-color:darkgray;
+    height: 350px;
 }
 .apresentation-right {
     float: right;
