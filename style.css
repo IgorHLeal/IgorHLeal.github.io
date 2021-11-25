@@ -23,16 +23,10 @@ p {
 }
 
 .apresentation-right {
-    float:left;
+    float: right;
     margin-right: 20px;
-    width: 50%;
+    width: 60%;
     text-align: left;
-}
-
-.apresentation-left {
-    float: left;
-    margin-left: 10px;
-    width: 40%;
 }
 
 .footer {
@@ -47,8 +41,10 @@ p {
 
 .picture {
     border-radius: 5px;
-    width: 55%;
+    width: 30%;
     float: left;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .button {
@@ -85,7 +81,6 @@ p {
     background-color: darkgray;
     height: 70px;
     text-align: left;
-    margin-top: 0px;
 }
 
 .trybe-learning-left {
