@@ -12,12 +12,16 @@ p {
     font-size: 12px;
 } 
 
+.header {
+    display: flex;
+    background-color: gainsboro;
+}
+
 .apresentation {
     padding: 40px 0px;
     background-color:darkgray;
     background-size: auto;
     width: 100%;
-    height: 450px;
     text-align: left;
     font-size: large;
 }
@@ -77,9 +81,9 @@ p {
 }
 
 .trybe-learning {
+    display: flex;
     padding: 20px;
     background-color: darkgray;
-    height: 70px;
     text-align: left;
 }
 
