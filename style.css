@@ -14,7 +14,7 @@ p {
 } 
 
 div.background {
-    background: url(/images/background-5035258__340.webp);
+    background: url(/images/fundo-pintado-de-cinza_53876-94041.jpg);
     position: absolute;
 }
 
@@ -94,6 +94,8 @@ main.transbox p {
 } 
 
 .skills {
+    display: flex;
+    flex-direction: column;
     float: left;
     text-align: left;
     padding: 50px;
