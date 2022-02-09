@@ -3,23 +3,41 @@
     padding: 0;
 }
 
-body {
-    background-color: gainsboro;
-}
+/* html {
+    background-image: url(/images/Plano-de-fundo-300x164.jpg);
+}  */
 
 p {
     font-family: monospace;
-    font-size: 12px;
+    font-weight: 700px;
+    font-size: 1.1rem;
 } 
+
+div.background {
+    background: url(/images/background-5035258__340.webp);
+    position: absolute;
+}
+
+main.transbox {
+    margin: 40px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+main.transbox p {
+    color: black;
+}
 
 .header {
     display: flex;
-    background-color: gainsboro;
+    /* background-color: gainsboro;  */
 }
 
 .apresentation {
     padding: 40px 0px;
-    background-color:darkgray;
+    /* background-color:darkgray; */
     background-size: auto;
     width: 100%;
     text-align: left;
@@ -54,14 +72,16 @@ p {
 .button {
     text-decoration: none;
     line-height: 15px;
-    background-color: darkgray;
+    /* background-color: darkgray; */
     border-radius: 5px;
     display: block;
-    width: 83px;
+    width: 110px;
     text-align: left;
     color: black;
     font-weight: 700;
-    transition: 1s;               
+    transition: 1s;
+    text-align: center;
+
 }
 
 .button2 {
@@ -77,7 +97,8 @@ p {
     float: left;
     text-align: left;
     padding: 50px;
-
+    font-size: 1.1rem;
+    font-weight: 700px;
 }
 
 .trybe-learning {
